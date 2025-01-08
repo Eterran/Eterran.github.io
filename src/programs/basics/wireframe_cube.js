@@ -11,7 +11,7 @@ import { map } from '/src/modules/num.js'
 
 export const settings = { fps : 60 }
 
-const density = ' .-~=+UMCS'
+const density = ' .-~=+CSUM'
 
 // Shorthands
 const { vec3 } = v3
@@ -21,10 +21,10 @@ const { sin, cos, floor, abs, exp, min } = Math
 // Lookup table for the background
 const bgMatrix = [
 '┼──────',
-'│      ',
-'│      ',
-'│      ',
-'│      ',
+'U      ',
+'M      ',
+'C      ',
+'S      ',
 '│      ',
 ]
 
