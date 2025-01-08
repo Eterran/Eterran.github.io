@@ -11,7 +11,7 @@ import { map } from '/src/modules/num.js'
 
 export const settings = { fps : 60 }
 
-const density = ' -~=+UMCS'
+const density = ' .-~=+UMCS'
 
 // Shorthands
 const { vec3 } = v3
