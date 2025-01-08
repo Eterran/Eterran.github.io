@@ -107,7 +107,7 @@ export function main(coord, context, cursor) {
 	} else {
 		return {
 			char  : density[idx],
-			color : '#008a1c'
+			color : '#04d62e'
 		}
 	}
 }
