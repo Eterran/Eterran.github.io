@@ -12,3 +12,8 @@
     font-family: "Fixedsys";
     src: url("../fonts/FSEX302.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "MonospaceR";
+    src: url("../fonts/MonospaceRegular.ttf") format("truetype");
+}

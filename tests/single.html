@@ -10,7 +10,7 @@
 			margin: 0;
 			font-size: 1em;
 			line-height: 1.2;
-			font-family: 'Fixedsys';
+			font-family: 'MonospaceR';
 		}
 		pre {
 			position: absolute;
@@ -29,7 +29,7 @@
 	<script type="module">
 		import { run } from '../src/run.js'
 		import * as program from '../src/programs/basics/wireframe_cube.js'
-		run(program, { element : document.querySelector('pre'), backgroundColor: 'black', fontFamily: ('Fixedsys') }).then(function(e){
+		run(program, { element : document.querySelector('pre'), backgroundColor: 'black', fontFamily: ('MonospaceR') }).then(function(e){
 			console.log(e)
 		}).catch(function(e) {
 			console.warn(e.message)
