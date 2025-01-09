@@ -2,8 +2,7 @@
 <html lang="en" >
 <head>
 	<meta charset="utf-8">
-	<title>Spinning Cube</title>
-	
+	<title>Fire</title>
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<style type="text/css" media="screen">
 		html, body {
@@ -12,36 +11,51 @@
 			font-size: 1em;
 			line-height: 1.2;
 			font-family: 'IBM Plex Mono';
+			background-color: black;
+			background-image: url('../img/sample.webp'); 
+            background-size: auto; 
+            background-position: center;
+			background-repeat: repeat;
+			overflow-x: hidden;
 		}
-		pre {
-			position: absolute;
+        pre {
+			position: fixed;
 			margin:0;
 			padding:0;
 			left:0;
-			top:0;
+			top:5px;
 			width:100vw;
 			height:100vh;
 			font-family: inherit;
-            z-index: -1;
+			z-index: 2;
+			pointer-events: none;
 		}
         button {
-            position: relative;
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
             z-index: 1;
+        }
+		body {
+            min-height: 2000vh;
         }
 	</style>
 </head>
 <body>
 	<pre></pre>
-	<button onclick="window.location.href='spinning.html'">Next Page</button>
 	<script type="module">
 		import { run } from '../src/run.js'
-		import * as program from '../src/programs/basics/doom_flame_(full_color).js'
-		run(program, { element : document.querySelector('pre'), backgroundColor: 'black', fontFamily: ('IBM Plex Mono') }).then(function(e){
+		import * as program from '../src/programs/basics/scrolling_fire.js'
+		run(program, { element : document.querySelector('pre'), backgroundColor: 'transparent', fontFamily: ('IBM Plex Mono') }).then(function(e){
 			console.log(e)
 		}).catch(function(e) {
 			console.warn(e.message)
 			console.log(e.error)
 		})
 	</script>
+	<footer>
+		<button onclick="window.location.href='spinning.html'">Next Page</button>
+	</footer>
 </body>
 </html>
