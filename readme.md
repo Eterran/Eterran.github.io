@@ -1,5 +1,3 @@
-<div style="background-color:black;color: white; padding: 20px; height: 100vh; width: 100vw; box-sizing: border-box;">
-
 ## Backgrounds:
 
 <div>
@@ -10,6 +8,4 @@
 </div>
 <div>
     <a href="https://eterran.github.io/tests/fire.html">Fire Scroll</a>
-</div>
-
 </div>
