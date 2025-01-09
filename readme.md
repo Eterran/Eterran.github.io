@@ -1,6 +1,15 @@
-****
-Backgrounds:
+<div style="background-color:black;color: white; padding: 20px; height: 100vh; width: 100vw; box-sizing: border-box;">
 
-[Matrix Rain](https://eterran.github.io/tests/rain.html)
-[Spinning Cube](https://eterran.github.io/tests/spinning.html)
-[Fire Scroll](https://eterran.github.io/tests/fire.html)
+## Backgrounds:
+
+<div>
+    <a href="https://eterran.github.io/tests/rain.html">Matrix Rain</a>
+</div>
+<div>
+    <a href="https://eterran.github.io/tests/spinning.html">Spinning Cube</a>
+</div>
+<div>
+    <a href="https://eterran.github.io/tests/fire.html">Fire Scroll</a>
+</div>
+
+</div>
