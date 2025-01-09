@@ -2,7 +2,8 @@
 <html lang="en" >
 <head>
 	<meta charset="utf-8">
-	<title>Test single</title>
+	<title>Spinning Cube</title>
+	
 	<link rel="stylesheet" type="text/css" href="../css/fonts.css">
 	<style type="text/css" media="screen">
 		html, body {
@@ -10,7 +11,7 @@
 			margin: 0;
 			font-size: 1em;
 			line-height: 1.2;
-			font-family: 'MonospaceR';
+			font-family: 'IBM Plex Mono';
 		}
 		pre {
 			position: absolute;
@@ -29,7 +30,7 @@
 	<script type="module">
 		import { run } from '../src/run.js'
 		import * as program from '../src/programs/basics/wireframe_cube.js'
-		run(program, { element : document.querySelector('pre'), backgroundColor: 'black', fontFamily: ('MonospaceR') }).then(function(e){
+		run(program, { element : document.querySelector('pre'), backgroundColor: 'black', fontFamily: ('IBM Plex Mono') }).then(function(e){
 			console.log(e)
 		}).catch(function(e) {
 			console.warn(e.message)
