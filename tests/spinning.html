@@ -22,11 +22,17 @@
 			width:100vw;
 			height:100vh;
 			font-family: inherit;
+			z-index: -1;
 		}
+		button {
+            position: relative;
+            z-index: 1;
+        }
 	</style>
 </head>
 <body>
 	<pre></pre>
+	<button onclick="window.location.href='fire.html'">Next Page</button>
 	<script type="module">
 		import { run } from '../src/run.js'
 		import * as program from '../src/programs/basics/wireframe_cube.js'
